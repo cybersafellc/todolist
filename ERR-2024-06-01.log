@@ -1,0 +1,28 @@
+{"level":"error","message":"test error"}
+{"level":"error","message":"test error"}
+{"level":"error","message":"test error"}
+{"level":"error","message":"test error"}
+{"level":"error"}
+{"level":"error"}
+{"code":"ERR_OUT_OF_RANGE","level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError"}
+{"level":"error","message":"invalid signature","name":"JsonWebTokenError"}
+{"code":"ERR_HTTP_INVALID_STATUS_CODE","level":"error"}
+{"level":"error"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:22:43.363Z"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:22:43.378Z"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:22:43.388Z"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:34:32.490Z"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:34:32.513Z"}
+{"level":"error","message":"\nInvalid `database.user.delete()` invocation in\nE:\\pemanasan-ngoding\\todolist\\server\\test\\test-utils.js:6:29\n\n  3 import { createID } from \"../src/app/generateID.js\";\n  4 \n  5 export const removeTestUser = async () => {\n→ 6   await database.user.delete({\n        where: {\n          username: \"sendersirchat@gmail.com\",\n      ?   id?: String,\n      ?   AND?: userWhereInput | userWhereInput[],\n      ?   OR?: userWhereInput[],\n      ?   NOT?: userWhereInput | userWhereInput[],\n      ?   password?: StringFilter | String\n        }\n      })\n\nArgument `where` of type userWhereUniqueInput needs at least one of `id` arguments. Available options are marked with ?.","target":"user.delete","timestamp":"2024-06-01T13:34:32.537Z"}
