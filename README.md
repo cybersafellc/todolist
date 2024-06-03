@@ -13,7 +13,3 @@ Below is more complete API documentation :
 This project is wide open for those who want to use my api (for the need to learn frontend consuming api for example) with any frontend framework. Please use it.
 
 _author : Rusnanda Purnama_
-
-## URL
-
-- URL : soon...
