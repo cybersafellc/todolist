@@ -6,7 +6,7 @@ This is a todolist project I created by implementing a Restfull API using the no
 
 Below is more complete API documentation :
 
-- URL : soon...
+- URL : https://todolist-eta-coral.vercel.app
 - [USER API](https://github.com/cybersafellc/todolist/blob/main/docs/USER.md)
 - [LIST API](https://github.com/cybersafellc/todolist/blob/main/docs/LIST.md)
 
