@@ -1,5 +1,8 @@
 import winston from "winston";
 import DailyRotateFile from "winston-daily-rotate-file";
+import path from "path";
+
+const logDirectory = path.join("/tmp", "logs");
 
 export const logger = winston.createLogger({
   level: "info",
@@ -10,7 +13,7 @@ export const logger = winston.createLogger({
     new winston.transports.Console(),
     new winston.transports.DailyRotateFile({
       level: "error",
-      filename: "ERR-%DATE%.log",
+      filename: path.join(logDirectory, "ERR-%DATE%.log"),
       zippedArchive: true,
       maxSize: "500m",
       maxFiles: "15d",
