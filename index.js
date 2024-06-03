@@ -1,6 +1,6 @@
 import http from "http";
-import { web } from "./app/web.js";
-import { logger } from "./app/logging.js";
+import { web } from "./src/app/web.js";
+import { logger } from "./src/app/logging.js";
 import dotenv from "dotenv";
 dotenv.config();
 
