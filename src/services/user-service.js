@@ -1,6 +1,7 @@
 import { database } from "../app/database.js";
 import { createID } from "../app/generateID.js";
 import { Response } from "../app/response.js";
+import { SendEmail } from "../app/sendEmail.js";
 import { ResponseError } from "../errors/responses-error.js";
 import userValidation from "../validations/user-validation.js";
 import validate from "../validations/validate.js";
@@ -94,7 +95,7 @@ const resetPasswordRequest = async (request) => {
       process.env.USER_RESET_PASSWORD_SECRET,
       { expiresIn: "5m" }
     );
-    // send to email
+    new SendEmail().resetPassword(user.username, reset_password_token); // send email
     const id = createID.other();
     await database.reset_password_token.create({
       data: {
