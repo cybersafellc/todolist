@@ -2,7 +2,7 @@
   "name": "server",
   "version": "1.0.0",
   "description": "projek pemanasan",
-  "main": "index.js",
+  "main": "src/main.js",
   "type": "module",
   "scripts": {
     "test": "jest",
