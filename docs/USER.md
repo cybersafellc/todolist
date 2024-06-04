@@ -113,6 +113,8 @@ Responses Error Body :
 
 ## Refresh Token API
 
+Endpoint : POST /users/refresh-token
+
 Headers :
 
 - Authorization : refresh_token
