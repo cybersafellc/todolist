@@ -99,7 +99,7 @@ const resetPasswordRequest = async (request) => {
     try {
       await new SendEmail().resetPassword(user.username, reset_password_token); // send email
     } catch (error) {
-      logger.info("error send email");
+      logger.error("error send email");
     }
     const id = createID.other();
     await database.reset_password_token.create({
