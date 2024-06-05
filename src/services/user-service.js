@@ -97,7 +97,7 @@ const resetPasswordRequest = async (request) => {
       { expiresIn: "5m" }
     );
     try {
-      new SendEmail().resetPassword(user.username, reset_password_token); // send email
+      await new SendEmail().resetPassword(user.username, reset_password_token); // send email
     } catch (error) {
       logger.info("error send email");
     }
